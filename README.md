@@ -18,6 +18,12 @@ DaySlot DaySlot
 
 SE1806
 22 41
+
+Means
+
+SE1806
+Monday, slot 2
+Wednesday, slot 1
 ```
 ## Disclaimer
 
