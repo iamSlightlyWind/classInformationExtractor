@@ -26,7 +26,7 @@
         var parser = new DOMParser();
         var doc = parser.parseFromString(textContent, 'text/html');
         var lines = doc.body.textContent.split(',');
-        var output = className + '\n';
+        var output = '"' + className + '",';
 
         for (var i = 0; i < lines.length; i++) {
             var line = lines[i].trim();
@@ -47,20 +47,20 @@
                 default: continue;
             }
 
-            output += dayNumber + slot + ' ';
+            output += '"' + dayNumber + slot + '",';
         }
 
         var allClassesContent = localStorage.getItem('allClassesContent') || '';
-        allClassesContent += output.trim() + '\n\n';
+        allClassesContent += output.slice(0, -1) + '\n'; // Remove the last comma and add a newline
         localStorage.setItem('allClassesContent', allClassesContent);
     }
 
     function downloadAllClasses() {
         var allClassesContent = localStorage.getItem('allClassesContent') || '';
-        const blob = new Blob([allClassesContent], { type: 'text/plain' });
+        const blob = new Blob([allClassesContent], { type: 'text/csv' });
         const link = document.createElement('a');
         link.href = URL.createObjectURL(blob);
-        link.download = 'AllClasses.txt';
+        link.download = 'AllClasses.csv';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
