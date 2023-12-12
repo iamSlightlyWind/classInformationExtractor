@@ -14,7 +14,7 @@ Extracts timetable information for a subject from the FPT University Academic Po
 Here is a sample timetable and how to interpret it:
 ```
 ClassName
-DaySlot DaySlot
+Day/Slot Day/Slot
 
 SE1806
 22 41
