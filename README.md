@@ -17,13 +17,8 @@ ClassName
 Day/Slot Day/Slot
 
 SE1806
-22 41
-
-Means
-
 SE1806
-Monday, slot 2
-Wednesday, slot 1
+Tue1 Thu2
 ```
 ## Disclaimer
 
