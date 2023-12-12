@@ -4,7 +4,7 @@
 // @version      0.62
 // @description  Download the class timetable
 // @author       iam.slightlywind@themajorones.dev
-// @match        https://fap.fpt.edu.vn/*
+// @match        https://fap.fpt.edu.vn/FrontOffice/MoveSubject.aspx?id=*
 // ==/UserScript==
 
 (function () {
