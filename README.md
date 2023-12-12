@@ -10,6 +10,15 @@ Extracts timetable information for a subject from the FPT University Academic Po
 2. Choose the first class in the class list.
 3. The script will iterate through all classes, and once it reaches the last class, a text file containing the timetable for each class will be downloaded.
 
+## Usage Example
+Here is a sample timetable and how to interpret it:
+```
+ClassName
+DaySlot DaySlot
+
+SE1806
+22 41
+```
 ## Disclaimer
 
 - FPT is a registered trademark of FPT Corporation.
