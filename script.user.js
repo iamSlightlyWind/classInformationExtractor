@@ -38,12 +38,12 @@
 
             var dayNumber;
             switch (day) {
-                case 'Mon': dayNumber = 2; break;
-                case 'Tue': dayNumber = 3; break;
-                case 'Wed': dayNumber = 4; break;
-                case 'Thu': dayNumber = 5; break;
-                case 'Fri': dayNumber = 6; break;
-                case 'Sat': dayNumber = 2; break;
+                case 'Mon': dayNumber = 'Mon'; break;
+                case 'Tue': dayNumber = 'Tue'; break;
+                case 'Wed': dayNumber = 'Wed'; break;
+                case 'Thu': dayNumber = 'Thu'; break;
+                case 'Fri': dayNumber = 'Fri'; break;
+                case 'Sat': dayNumber = 'Mon'; break;
                 default: continue;
             }
 
