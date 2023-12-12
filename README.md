@@ -8,17 +8,16 @@ Extracts timetable information for a subject from the FPT University Academic Po
 
 1. Select a class to move out on [FAP/Move out class](https://fap.fpt.edu.vn/FrontOffice/Courses.aspx).
 2. Choose the first class in the class list.
-3. The script will iterate through all classes, and once it reaches the last class, a text file containing the timetable for each class will be downloaded.
+3. The script will iterate through all classes, and once it reaches the last class, a CSV file containing the timetable for each class will be downloaded.
 
 ## Usage Example
+The CSV file can be oppened with Microsoft Excel, Google Sheet or any alternative.
+ 
 Here is a sample timetable and how to interpret it:
 ```
-ClassName
-Day/Slot Day/Slot
+ClassName | Day/Slot | Day/Slot
 
-SE1806
-SE1806
-Tue1 Thu2
+SE1806 | Tue1 | Thu2
 ```
 ## Disclaimer
 
