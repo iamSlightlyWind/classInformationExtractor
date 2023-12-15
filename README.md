@@ -4,7 +4,7 @@ Extracts timetable information for a subject from the FPT University Academic Po
 
 ## Installation
 
-[Install this script](https://github.com/iamSlightlyWind/classInformationExtractor/raw/main/script.user.js) using [TamperMonkey](https://www.tampermonkey.net/) or any compatible user script manager.
+[Install this script](https://github.com/iamSlightlyWind/classInformationExtractor/raw/csv_extractor/script.user.js) using [TamperMonkey](https://www.tampermonkey.net/) or any compatible user script manager.
 
 1. Select a class to move out on [FAP/Move out class](https://fap.fpt.edu.vn/FrontOffice/Courses.aspx).
 2. Choose the first class in the class list.
